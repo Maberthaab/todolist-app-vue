@@ -1,0 +1,27 @@
+{
+  "name": "todoappvue",
+  "version": "1.0.0",
+  "description": "> A simple ToDo application using Vue 3 Composition API.",
+  "main": "babel.config.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "mabertha",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2"
+  }
+}
